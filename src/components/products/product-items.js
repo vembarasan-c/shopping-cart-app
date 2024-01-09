@@ -1,7 +1,7 @@
 const productItems = [
   {
     id: 'p1',
-    image: '/images/product-1.jpg',
+    image: 'images/product-1.jpg',
     title: 'PUMA',
     rate: '1200',
     gender: ' Men',
@@ -9,7 +9,7 @@ const productItems = [
 
   {
     id: 'p2',
-    image: 'src/assets/images/product-2.jfif',
+    image: 'images/product-2.jfif',
     title: 'Developer ',
     rate: '450',
     gender: ' Men',
