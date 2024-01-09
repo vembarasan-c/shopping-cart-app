@@ -28,7 +28,7 @@ function Products() {
         {productItems.map((items) => (
           <li
             key={items.id}
-            className=" mx-3 w-44 md:w-48 h-72 rounded-md space-y-1  px-2 py-2  border-gray-300  border-solid  border-2  "
+            className="  w-44 md:w-48 h-72 rounded-md space-y-1  px-2 py-2  border-gray-300  border-solid  border-2  "
           >
             <img
               className=" w-full sm:w-40  h-44 object-cover "
@@ -49,7 +49,7 @@ function Products() {
                     +items.rate
                   )
                 }
-                className=" px-2 text-xs py-1 bg-slate-400 rounded-full "
+                className=" px-2 text-sm py-1 bg-slate-400 rounded-full "
               >
                 Add to cart
               </button>
