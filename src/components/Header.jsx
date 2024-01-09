@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import carticon from '../assets/images/cart-icon.png';
+import carticon from '/assets/images/cart-icon.png';
 
 import { Link } from 'react-router-dom';
 import { cartSliceActions } from '../store/cart-slice';

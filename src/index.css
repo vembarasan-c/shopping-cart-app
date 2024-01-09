@@ -10,7 +10,7 @@
 }
 
 .land-image {
-  background-image: url(./assets/images/image-2.jpg);
+  background-image: url(/assets/images/image-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
@@ -25,7 +25,7 @@
 }
 
 .about-image {
-  background-image: url(./assets/images/about-8.jpg);
+  background-image: url(/assets/images/about-8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;

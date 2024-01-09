@@ -5,7 +5,8 @@ import store from './store/store';
 
 import Main from './components/Main';
 import Navbar from './components/Navbar';
-const About = lazy(() => import('./components/About'));
+import About from './components/About';
+
 const CartItems = lazy(() => import('./components/products/Cart'));
 const Products = lazy(() => import('./components/products/Products'));
 const Contact = lazy(() => import('./components/Contact'));
@@ -24,14 +25,9 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
-
       {
         path: '/about',
-        element: (
-          <Suspense fallback={<p className="loading">Loading.... </p>}>
-            <About />
-          </Suspense>
-        ),
+        element: <About />,
       },
       {
         path: '/contact',

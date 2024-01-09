@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { cartSliceActions } from '../../store/cart-slice';
-import deletebutton from '../../assets/images/delete-button.png';
+import deletebutton from '/public/assets/images/delete-button.png';
 
 import styles from './Cart.module.css';
 
