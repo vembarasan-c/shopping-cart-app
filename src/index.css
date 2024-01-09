@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+  }
+}
+
+.land-image {
+  background-image: url(./assets/images/image-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-blend-mode: saturation 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.4fr 0.5fr 0.4fr 0.4fr;
+  row-gap: 10px;
+}
+
+.about-image {
+  background-image: url(./assets/images/about-8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  width: 100%;
+  background-position: center;
+  height: 500px;
+}
+
+.contact-page input {
+  width: 300px;
+  outline: none;
+  border-bottom: 2px solid gray;
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: 10px;
+  height: 35px;
+}
+
+.contact-page textarea {
+  background-color: transparent;
+  outline: none;
+  margin-top: 10px;
+  resize: none;
+  width: 300px;
+  border-bottom: 2px solid gray;
+}
+
+.loading {
+  text-align: center;
+  font-size: larger;
+}
+
+@media screen and (width < 510px) {
+  .products {
+    grid-template-columns: 0.4fr 0.4fr;
+    grid-template-rows: 0.4fr 0.4fr;
+    justify-content: space-between;
+  }
+
+  .contact-page input {
+    width: auto;
+  }
+
+  .contact-page textarea {
+    width: auto;
+  }
+}
+
+@media screen and (520px < width < 1020px) {
+  .products {
+    grid-template-columns: 0.4fr 0.4fr 0.4fr;
+    grid-template-rows: 0.4fr 0.4fr 0.4fr;
+  }
+}
