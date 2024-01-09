@@ -28,7 +28,7 @@ function Products() {
         {productItems.map((items) => (
           <li
             key={items.id}
-            className="  w-44 md:w-48 h-72 rounded-md space-y-1  px-2 py-2  border-gray-300  border-solid  border-2  "
+            className=" mx-1  w-44 md:w-48 h-72 rounded-md space-y-1  px-2 py-2  border-gray-300  border-solid  border-2  "
           >
             <img
               className=" w-full sm:w-40  h-44 object-cover "
