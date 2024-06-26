@@ -8,6 +8,6 @@
   transition: 0.7s ease-in-out;
 }
 
-.cartitems.active {
+.cartitems:active {
   transition: 1s ease-in-out;
 }

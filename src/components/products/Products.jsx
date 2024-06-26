@@ -17,10 +17,10 @@ function Products() {
   }
 
   return (
-    <section className=" w-full my-10 ">
+    <section className=" w-full my-4 ">
       <div className="  space-y-2">
         <h1 className=" ml-2 sm:ml-5 text-left  text-3xl">Products List</h1>
-        <h3 className=" text-center sm:mr-12  sm:text-2xl text-gray-500 sm:text-bold ">
+        <h3 className=" text-center sm:mr-12 mb-1 sm:text-2xl text-gray-500 sm:text-bold ">
           Popular T-shirts
         </h3>
       </div>
@@ -49,7 +49,7 @@ function Products() {
                     +items.rate
                   )
                 }
-                className=" px-2 text-sm py-1 bg-slate-400 rounded-full "
+                className=" font-medium text-sm sm:text-base px-2  py-1 duration-100 active:py-1  active:translate-y-2  bg-slate-500 text-gray-100 shadow-sm shadow-slate-400 hover:bg-gray-700 rounded-full "
               >
                 Add to cart
               </button>
